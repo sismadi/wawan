@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akses File JSON dari Private Repo GitHub</title>
+</head>
+<body>
+    <h1>Akses File JSON dari Private Repository GitHub</h1>
+    <button onclick="fetchJsonFromGithub()">Ambil Data JSON</button>
+    <pre id="json-output"></pre>
+
+    <script>
+        async function fetchJsonFromGithub() {
+            const token = 'YOUR_PERSONAL_ACCESS_TOKEN'; // Ganti dengan token kamu
+            const url = 'https://api.github.com/repos/{username}/{repository}/contents/{path/to/file.json}';
+
+            try {
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Accept': 'application/vnd.github.v3.raw'
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                document.getElementById('json-output').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                console.error('Error fetching JSON:', error);
+                document.getElementById('json-output').textContent = 'Gagal mengambil data JSON!';
+            }
+        }
+    </script>
+</body>
+</html>
