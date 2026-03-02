@@ -1,0 +1,97 @@
+{
+"page": "resume",
+"data": [
+{
+"section": "header",
+"caption": "profile",
+"content": {
+  "avatar": "data/asset/me.jpg",
+  "nama": "Rekam Jejak & Kredibilitas",
+"tagline": "Authority & Professional Journey",
+"deskripsi": "Halaman Authority menyajikan portofolio lengkap sebagai pakar IT dan akademisi yang tengah menempuh studi Doktor Informatika di Universitas Ahmad Dahlan.\nTerangkum perjalanan karier sejak tahun 2002, publikasi ilmiah di Jurnal Ekonomi Manajemen Sistem Informasi, hingga peran aktif di Ikatan Ahli Informatika Indonesia.\n\nBukan sekadar biodata, ini adalah bukti integritas seorang Asesor Kompetensi berlisensi yang berkomitmen pada standar kualitas TI di Indonesia.",
+"cta": [
+{
+"text": "Lihat Publikasi Ilmiah",
+"link": "[https://scholar.google.com]()",
+"icon": "book/24"
+}
+]
+}
+},
+{
+"section": "stats",
+"caption": "Pencapaian & Kredensial",
+"content": [
+{
+"id": 1,
+"nama": "Akademisi",
+"isi": "Kandidat Doktor Informatika di Universitas Ahmad Dahlan.",
+"icon": "user/32x32/var(--pColor)",
+"url": "#education"
+},
+{
+"id": 2,
+"nama": "Sertifikasi",
+"isi": "Sertifikasi Internasional dari IBM dan Google.",
+"icon": "check/32x32/var(--pColor)",
+"url": "#certification"
+},
+{
+"id": 3,
+"nama": "Pembicara",
+"isi": "Konferensi Nasional Big Data Science.",
+"icon": "users/32x32/var(--pColor)",
+"url": "#speaker"
+},
+{
+"id": 4,
+"nama": "Asesor",
+"isi": "Asesor Kompetensi berlisensi untuk standar TI.",
+"icon": "lock/32x32/var(--pColor)",
+"url": "#assessor"
+}
+]
+},
+{
+"section": "progress",
+"caption": "Keahlian & Pengalaman",
+"content": [
+{
+"label": "Pengalaman Industri (Sejak 2002)",
+"percent": 100,
+"value": "22+ Tahun"
+},
+{
+"label": "Riset & Publikasi (SINTA/Scholar)",
+"percent": 90,
+"value": "Advanced"
+},
+{
+"label": "Organizational Leadership (IAII)",
+"percent": 85,
+"value": "Active Member"
+}
+]
+},
+{
+"section": "btn",
+"btn": [
+{
+"text": "LinkedIn Profile",
+"url": "[https://linkedin.com]()",
+"icon": "linkedin/24/blue"
+},
+{
+"text": "GitHub Repository",
+"url": "[https://github.com]()",
+"icon": "github/24/black"
+},
+{
+"text": "Google Scholar",
+"url": "#scholar",
+"icon": "orcid/24"
+}
+]
+}
+]
+}

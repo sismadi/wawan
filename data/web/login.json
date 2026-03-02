@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {"icon":"piawai","name":"SVG","url":"/donat/admin"},
+    {"icon":"edu","name":"LMS","url":"/donat/lms"},
+    {"icon":"qrcode","name":"Presensi","url":"/donat/presensi"},
+    {"icon":"chart","name":"Inventory","url":"/donat/inventory"},
+    {"icon":"cart","name":"POS","url":"/donat/pos"},
+    {"icon":"envelope","name":"Finance","url":"/donat/finance"}
+  ]
+}

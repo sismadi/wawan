@@ -1,0 +1,100 @@
+{
+  "page": "home",
+  "data": [
+    {
+      "section": "header",
+      "caption": "",
+      "content": {
+        "nama": "Ramadhan Mubarak",
+        "icon": "lamp/150/var(--pColor)-var(--pLightColor)",
+        "icon1": "moon/150/var(--pColor)-var(--pLightColor)",
+        "icon2": "start/100/var(--pColor)-var(--pLightColor)",
+        "icon3": "lamp/100/var(--pColor)-var(--pLightColor)",
+        "tagline": "أللهمَّ سَلِّمْنِي مِنْ رَمَضَانَ، وَسَلِّمْ رَمَضَانَ لِي، وَتَسَلَّمْهُ مِنِّي مُتَقَبَّلًا",
+        "deskripsi": "Ya Allah, sampaikan aku dengan selamat menuju bulan Ramadan. Sampaikanlah Ramadhan kepadaku, serta terimalah bulan Ramadan tersebut dari kami"
+      }
+    },
+
+    {
+      "section": "stats",
+      "caption": "tentangs",
+      "content": [
+        {"icon": "ws/150", "title": "Filosofi", "desc": "Teknologi yang baik adalah yang tidak terlihat, namun membuat segalanya terasa mungkin." }
+      ]
+    },
+
+
+    {
+    "section": "stats",
+    "caption": "Pilar Utama & Pengalaman",
+    "content": [
+    {
+    "id": 1,
+    "nama": "Public Sector",
+    "isi": "Konsultan Individual di Kementerian PUPR untuk solusi aplikasi bisnis.",
+    "icon": "setting/32x32/var(--pColor)",
+    "url": "#public-sector"
+    },
+    {
+    "id": 2,
+    "nama": "Web Developer",
+    "isi": "Pengembangan perangkat modern dengan standar industri terkini.",
+    "icon": "code/32x32/var(--pColor)",
+    "url": "#developer"
+    },
+    {
+    "id": 3,
+    "nama": "Dosen Tetap",
+    "isi": "Dedikasi akademik dan kontribusi riset ilmiah di Universitas IPWIJA.",
+    "icon": "edu/32x32/var(--pColor)",
+    "url": "#dosen"
+    },
+    {
+    "id": 4,
+    "nama": "Personal",
+    "isi": "Pemikiran filosofis mengenai kemanusiaan dan teknologi.",
+    "icon": "user/32x32/var(--pColor)",
+    "url": "#personal"
+    }
+    ]
+    },
+
+
+      {
+    "section": "header",
+    "caption": "tentang",
+    "content": {
+      "icon": "start/100/var(--pColor)/0.3/float",
+    "nama": "Wawan Sismadi",
+    "tagline": "Sentral Ekosistem Digital",
+    "deskripsi": "Selamat datang di gerbang utama ekosistem digital Wawan Sismadi, S.Kom., M.Kom.\nSebagai seorang Arsitek Solusi Digital sekaligus Dosen Tetap di Universitas IPWIJA, narasi di halaman ini menyatukan visi teknologi dengan dedikasi akademik.\n\nDi sini, Anda akan menemukan titik temu antara pengalaman mendalam sebagai Konsultan Individual di Kementerian PUPR dengan gairah dalam mendidik generasi mendatang. Halaman ini dirancang untuk memandu Anda mengeksplorasi empat pilar utama: solusi aplikasi bisnis (Public Sector), perangkat pengembangan modern (Web Developer), kontribusi riset ilmiah (Dosen), hingga pemikiran filosofis mengenai kemanusiaan dan teknologi (Personal).",
+    "cta": [
+    {
+    "text": "Eksplorasi Pilar",
+    "link": "#pilar",
+    "icon": "menu/24"
+    }
+    ]
+    }
+    },
+
+
+
+
+    {
+    "section": "btn",
+    "btn": [
+    {
+    "text": "Hubungi Melalui WhatsApp",
+    "url": "[https://wa.me/yourlink]()",
+    "icon": "whatsapp/24"
+    },
+    {
+    "text": "Lihat Portofolio",
+    "url": "/portfolio",
+    "icon": "search/24"
+    }
+    ]
+    }
+    ]
+    }

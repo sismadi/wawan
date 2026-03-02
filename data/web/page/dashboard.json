@@ -1,0 +1,110 @@
+{
+"page": "solutions",
+"data": [
+{
+"section": "header",
+"content": {
+  "icon": "idea/150/var(--pColor)-var(--pLightColor)",
+  "icon2": "idea/100/var(--pColor)-var(--pLightColor)/0.3/float",
+"nama": "Katalog Produk & Inovasi",
+"tagline": "Solusi Digital & Aset Sistematis",
+"deskripsi": "Halaman Solutions merupakan wadah dari seluruh aset digital dan sistem aplikasi yang telah dikembangkan secara sistematis.\nKatalog ini mencakup Sistem Enterprise (LMS, POS, ERP) yang dibangun berdasarkan pengalaman panjang sebagai Software Engineer di instansi pemerintah dan perusahaan multinasional seperti PT Tereos FKS Indonesia dan PT Castrol Indonesia.\nSetiap produk merupakan kristalisasi dari sertifikasi BNSP dan standar keamanan ISO 27001.",
+"cta": [
+{
+"text": "Lihat Katalog",
+"link": "#katalog",
+"icon": "search/24"
+}
+]
+}
+},
+{
+"section": "stats",
+"caption": "Kategori Solusi Utama",
+"content": [
+{
+"id": 1,
+"nama": "Enterprise Systems",
+"isi": "LMS, POS, dan ERP dengan standar industri multinasional.",
+"icon": "setting/32x32/var(--pColor)",
+"url": "#enterprise"
+},
+{
+"id": 2,
+"nama": "SVG Digital Assets",
+"isi": "Koleksi SVG teroptimasi berdasarkan riset buku Web Development.",
+"icon": "code/32x32/var(--pColor)",
+"url": "#assets"
+},
+{
+"id": 3,
+"nama": "SPA Starter Kit",
+"isi": "Akselerasi proyek menggunakan standar industri modern.",
+"icon": "home/32x32/var(--pColor)",
+"url": "#starter-kit"
+},
+{
+"id": 4,
+"nama": "Security & Certification",
+"isi": "Fondasi kokoh berbasis sertifikasi BNSP dan ISO 27001.",
+"icon": "lock/32x32/var(--pColor)",
+"url": "#security"
+}
+]
+},
+{
+"section": "progress",
+"caption": "Keahlian Teknis & Standarisasi",
+"content": [
+{
+"label": "Web & Mobile Development (BNSP)",
+"percent": 100,
+"value": "Certified"
+},
+{
+"label": "Information Security (ISO 27001)",
+"percent": 95,
+"value": "Advanced"
+},
+{
+"label": "Enterprise Architecture",
+"percent": 90,
+"value": "Expert"
+}
+]
+},
+{
+"section": "table",
+"caption": "Riwayat Implementasi Sistem",
+"content": [
+{
+"Instansi": "PT Tereos FKS Indonesia",
+"Solusi": "Software Engineering & Enterprise System"
+},
+{
+"Instansi": "PT Castrol Indonesia",
+"Solusi": "Industrial Application Development"
+},
+{
+"Instansi": "Instansi Pemerintah",
+"Solusi": "Public Sector Business Solutions"
+}
+]
+},
+{
+"section": "btn",
+"btn": [
+{
+"text": "Konsultasi Solusi",
+"url": "[https://wa.me/yourlink]()",
+"icon": "whatsapp/24"
+},
+{
+"text": "Unduh Katalog SVG",
+"url": "/assets/svg",
+"icon": "book/24"
+}
+]
+}
+]
+}

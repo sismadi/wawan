@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="DonatJS by Wawan Sismadi">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+<meta http-equiv="Cache-control" content="public" max-age="31536000">
+<meta http-equiv="Cache-Control" content="max-age=1209600">
+
+
+<!-- <link rel="manifest" href="https://donat.id/pwa/manifest.json"> -->
+
+<!-- Add to home screen for Safari on iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="DonatJS UKM">
+<meta name="mobile-web-app-capable" content="yes">
+
+<link rel="apple-touch-icon" href="https://donat.id/pwa/icons/icon-152x152.png">
+
+<!-- Windows related -->
+<meta name="msapplication-TileImage" content="pwa/icons/icon-144x144.png">
+<meta name="msapplication-TileColor" content="#386CC1">
+<meta name="theme-color" content="#164391">
+
+<meta property="og:title" content="UKM"/>
+<meta property="og:image" content="https://donat.id/app/ukm/donat-ukm.png"/>
+
+<meta property="og:description" content="Usaha Kecil Menengah"/>
+<meta property="og:url" content="https://donat.id/app/ukm"/>
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="627" />
+<!-- TYPE BELOW IS PROBABLY: "website" or "article" or look on https://ogp.me/#types -->
+<meta property="og:type" content="website"/>
+
+<title>Wawan Sismadi</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path id='pathws' d='M 9 8 L 11 6 L 9 4 L 10 3 L 12 5 L 14 3 L 15 4 L 13 6 L 15 8 L 18 5 L 19 6 L 16 9 L 18 11 L 20 9 L 21 10 L 19 12 L 21 14 L 20 15 L 18 13 L 16 15 L 19 18 L 18 19 L 15 16 L 13 18 L 15 20 L 14 21 L 12 19 L 10 21 L 9 20 L 11 18 L 9 16 L 6 19 L 5 18 L 8 15 L 6 13 L 4 15 L 3 14 L 5 12 L 3 10 L 4 9 L 6 11 L 8 9 L 5 6 L 6 5 Z M 12 7 L 10 9 L 12 11 L 14 9 Z M 15 10 L 13 12 L 15 14 L 17 12 Z Z M 9 10 L 7 12 L 9 14 L 11 12 Z Z M 12 13 L 10 15 L 12 17 L 14 15 Z' /></svg>" type="image/svg+xml">
+
+
+<link rel="stylesheet" type="text/css" href="/al/svg/style.css" >
+
+<link rel="stylesheet" type="text/css" href="/al/donat/donat.css" >
+<link rel="stylesheet" type="text/css" href="/al/donat/tabs.css" >
+<link rel="stylesheet" type="text/css" href="/al/ui/login.css" >
+
+<link rel="stylesheet" type="text/css" href="/al/templates/style.css">
+<link rel="stylesheet" type="text/css" href="/al/templates/parallax.css">
+
+<link id="layout-style" rel="stylesheet" type="text/css" href="/al/templates/layouts/style-framework.css">
+<link id="color-style" rel="stylesheet" type="text/css" href="/al/templates/colors/style-color-piawai.css">
+<link id="image-style" rel="stylesheet" type="text/css" href="/al/templates/images/style-image-piawai.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+<div id="pattern-layer" class=""></div>
+<div id="modal" class="hide depan"></div>
+<div id="bawah"  class="toast hide" > info </div>
+
+<div id="menu" class="menu" tabindex="0" >
+<div class="sidebar-header">
+<div class="logo hide">
+<img data-src="ws/100">
+</div>
+</div>
+
+
+<ul id='leftmenu'>
+<li data-info="web/page/home"> <img data-src="house"> Home</li>
+<li data-info="web/page/dashboard" class="item" ><img data-src="menu"> Dashboard</li>
+<li data-info="web/page/profile"> <img data-src="user"> Profile</li>
+</ul>
+
+<div class="sidebar-footer">
+© 2026 Wawan Sismadi<br>
+Web Developer
+</div>
+
+</div>
+
+<div id="panel-container"></div>
+<div id="main" class="main shadow">
+<div id="header" class="header" ></div>
+<div id="topmenu" class="topmenu sticky-top"> topmenu </div>
+
+<main><div id="content" class="content" ></div></main>
+<div id="footer" class="footer" >
+
+  <div id="footer-artikel" class="row">
+
+  <div class="col-1-3">
+  <div class="artikel">
+  <img data-src="sismadi/50">
+<br>
+  <strong>Piawai </strong><br>
+  +6287885073237 <br>
+  wawan@sismadi.com <br>
+  Jakarta <br>
+  Dikelola oleh:<br>
+  DonatJS <br>
+  <img data-src="geo/32">
+  <img data-src="linkedin/32/navy">
+  <img data-src="facebook/32/red-yellow">
+  <img data-src="x/32/blax">
+  <img data-src="github/32/black">
+  <img data-src="credly/32/orange">
+
+    </div>
+  </div>
+
+  <div class="col-1-3">
+    <div class="artikel">
+      <h3>Pranala</h3>
+      <ul>
+      <li>ORCID</li>
+      <li>Sinta</li>
+      <li>Linkedin</li>
+      <li>GitHub</li>
+      <li>Google Dev</li>
+      <li>Credly</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-1-3">
+    <div class="artikel">
+      <h3>Informasi</h3>
+      <ul>
+        <li>Starter Kit</li>
+        <li>Digital Asset</li>
+        <li>Web Templates</li>
+        <li>SystemInterprise</li>
+      </ul>
+    </div>
+  </div>
+
+  </div>
+  Made with <img data-src="donat/32x32" alt="Donat"> by donat.id
+</div>
+</div>
+
+<script type="text/javascript" src="config.js"></script>
+
+<script type="text/javascript" src="/al/donat/donat.js"></script>
+<script type="text/javascript" src="/al/donat/tabs.js"></script>
+
+<script type="text/javascript" src="/al/templates/parallax.js"></script>
+
+<script type="text/javascript" src="/al/ui/script.js"></script>
+
+<script type="text/javascript" src="/al/svg/script.js"></script>
+
+
+<script type="text/javascript" src="/al/ui/login.js"></script>
+<script type="text/javascript" src="/al/ui/app.js"></script>
+
+<script type="text/javascript" src="/al/ui/web.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

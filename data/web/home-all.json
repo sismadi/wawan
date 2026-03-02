@@ -1,0 +1,93 @@
+{
+  "page": "home",
+  "data": [
+    {
+      "section": "header",
+      "caption": "",
+      "content": {
+        "nama": "Sismadi",
+        "icon": "medsos/150x150/skyblue/0.1",
+        "tagline": "Premium Digital Assets • SVG • Web Templates • SPA Solutions",
+        "deskripsi": "Akselerasi proyek digital Anda dengan aset visual dan arsitektur web modern yang dirancang untuk performa dan skalabilitas tinggi.",
+        "cta": [
+          { "text": "Eksplorasi Produk", "link": "#dashboard", "icon": "code/32x32" },
+          { "text": "Konsultasi Proyek", "link": "https://wa.me/xxx", "icon": "whatsapp/32x32" }
+        ]
+      }
+    },
+    {
+      "section": "stats",
+      "caption": "Katalog Produk",
+      "content": [
+        { "id": 1, "nama": "SVG Assets", "isi": "500+", "icon": "setting/150x150", "url": "web/svg/loadicons/1" },
+        { "id": 2, "nama": "Web Templates", "isi": "24", "icon": "setting/150x150", "url": "web/web/template/1" },
+        { "id": 3, "nama": "SPA Ready", "isi": "12", "icon": "setting/150x150", "url": "web/web/app/1" }
+      ]
+    },
+    {
+      "section": "stats",
+      "caption": "Layanan Kami",
+      "content": [
+        { "title": "Custom SVG", "desc": "Desain ikon dan ilustrasi vektor ringan yang dapat disesuaikan dengan brand Anda.", "icon": "piawai/150x150" },
+        { "title": "Modern SPA", "desc": "Pembangunan Single Page Application menggunakan teknologi terbaru untuk pengalaman user yang seamless.", "icon": "android/150x150" }
+      ]
+    },
+
+    {
+      "section": "stats",
+      "caption": "Inventaris Aset",
+      "content": [
+        { "id": 1, "nama": "Templates", "isi": "25", "img": "data/web/wawan1.jpg", "url": "lms/kursus/kursus/1" },
+        { "id": 2, "nama": "Koleksi SVG", "isi": "128", "icon": "setting/150x150", "url": "lms/sertifikat/sertifikat/1" },
+        { "id": 3, "nama": "SPA", "isi": "12", "icon": "setting/150x150", "url": "lms/kuis/kuis/1" }
+      ]
+    },
+
+    {
+      "section": "stats",
+      "caption": "pos",
+      "control": "multi",
+      "filter": "isi,nama",
+      "content": [
+        { "id": 1, "nama": "Templates", "isi": "25", "icon": "setting/150x150", "url": "lms/kursus/kursus/1" },
+        { "id": 2, "nama": "Koleksi SVG", "isi": "128", "icon": "setting/150x150", "url": "lms/sertifikat/sertifikat/1" },
+        { "id": 3, "nama": "SPA", "isi": "25", "icon": "setting/150x150", "url": "lms/kuis/kuis/1" }
+      ]
+    },
+
+    {
+      "section": "progress",
+      "caption": "Update Terkini",
+      "content": [
+        { "label": "UI Kit Update", "percent": 95, "value": "Finalizing" },
+        { "label": "SPA Boilerplate", "percent": 100, "value": "Ready" }
+      ]
+    },
+
+    {
+      "section": "table",
+      "caption": "Daftar Rilis Produk",
+      "content": [
+        { "Kursus": "Dashboard SPA React", "Status": "Terbaru", "Tanggal": "Februari 2026" },
+        { "Kursus": "Icon Pack Series 01", "Status": "Update", "Tanggal": "Januari 2026" }
+      ]
+    },
+
+    {
+      "section": "table",
+      "caption": "Produk",
+      "control": true,
+      "content": [
+        { "Kursus": "Dashboard SPA React", "Status": "Terbaru", "Tanggal": "Februari 2026" },
+        { "Kursus": "Icon Pack Series 01", "Status": "Update", "Tanggal": "Januari 2026" },
+        { "Kursus": "Dashboard SPA React", "Status": "Terbaru", "Tanggal": "Februari 2026" },
+        { "Kursus": "Icon Pack Series 01", "Status": "Update", "Tanggal": "Januari 2026" },
+        { "Kursus": "Dashboard SPA React", "Status": "Terbaru", "Tanggal": "Februari 2026" },
+        { "Kursus": "Icon Pack Series 01", "Status": "Update", "Tanggal": "Januari 2026" }
+      ]
+    }
+
+
+
+  ]
+}
