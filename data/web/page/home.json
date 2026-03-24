@@ -3,98 +3,222 @@
   "data": [
     {
       "section": "header",
-      "caption": "",
       "content": {
-        "nama": "Ramadhan Mubarak",
-        "icon": "lamp/150/var(--pColor)-var(--pLightColor)",
-        "icon1": "moon/150/var(--pColor)-var(--pLightColor)",
-        "icon2": "start/100/var(--pColor)-var(--pLightColor)",
-        "icon3": "lamp/100/var(--pColor)-var(--pLightColor)",
-        "tagline": "أللهمَّ سَلِّمْنِي مِنْ رَمَضَانَ، وَسَلِّمْ رَمَضَانَ لِي، وَتَسَلَّمْهُ مِنِّي مُتَقَبَّلًا",
-        "deskripsi": "Ya Allah, sampaikan aku dengan selamat menuju bulan Ramadan. Sampaikanlah Ramadhan kepadaku, serta terimalah bulan Ramadan tersebut dari kami"
+        "nama": "Wawan Sismadi",
+        "tagline": "Bridging the Gap Between Academic Theory and Industrial Innovation.",
+        "deskripsi": "Di dunia yang terobsesi dengan kecepatan teknologi, saya percaya bahwa inovasi sejati lahir dari fondasi riset yang kokoh dan implementasi yang beretika.\n\nAkademisi Informatika, Peneliti, dan Praktisi IT yang berdedikasi mentransformasi ide kompleks menjadi solusi digital fungsional. Berpengalaman 15+ tahun mengawal transformasi digital dari kementerian hingga ruang kelas.\n\nDosen Universitas IPWIJA · Founder PT Sismadi Langit Solusi · SINTA ID: 6848496 · ORCID: 0009-0007-2685-5663",
+        "avatar": "data/asset/me2.jpg",
+        "cta": [
+          {
+            "text": "Lihat Portofolio",
+            "link": "#portfolio",
+            "icon": "code/24/var(--pColor)"
+          },
+          {
+            "text": "Hubungi Saya",
+            "link": "mailto:wawan@ipwija.ac.id",
+            "icon": "mail/24/var(--pColor)"
+          }
+        ]
       }
     },
-
     {
       "section": "stats",
-      "caption": "tentangs",
+      "caption": "Akademisi dan Praktisi",
       "content": [
-        {"icon": "ws/150", "title": "Filosofi", "desc": "Teknologi yang baik adalah yang tidak terlihat, namun membuat segalanya terasa mungkin." }
+        {
+          "id": 1,
+          "nama": "Linkedin",
+          "isi": "4",
+          "icon": "linkedin/32/navy",
+          "link": "https://www.linkedin.com/in/sismadi"
+
+        },
+        {
+          "id": 2,
+          "nama": "Github",
+          "isi": "29",
+          "icon": "github/32/black",
+          "link": "https://github.com/sismadi"
+        },
+        {
+          "id": 3,
+          "nama": "Sinta",
+          "isi": "274",
+          "icon": "edu/32/green",
+          "link": "https://sinta.kemdiktisaintek.go.id/authors/profile/6848496"
+        },
+        {
+          "id": 4,
+          "nama": "Credly",
+          "isi": "29",
+          "icon": "credly/32/orange",
+          "link": "https://credly.com/users/sismadi"
+        }
       ]
     },
-
-
     {
-    "section": "stats",
-    "caption": "Pilar Utama & Pengalaman",
-    "content": [
-    {
-    "id": 1,
-    "nama": "Public Sector",
-    "isi": "Konsultan Individual di Kementerian PUPR untuk solusi aplikasi bisnis.",
-    "icon": "setting/32x32/var(--pColor)",
-    "url": "#public-sector"
+      "section": "progress",
+      "caption": "Keahlian Utama & Positioning",
+      "content": [
+        {
+          "label": "Web Development (HTML/CSS/JS/PHP)",
+          "percent": 95,
+          "value": "Senior"
+        },
+        {
+          "label": "MVC Framework & Arsitektur Sistem",
+          "percent": 90,
+          "value": "Expert"
+        },
+        {
+          "label": "IoT & Embedded Systems",
+          "percent": 80,
+          "value": "Advanced"
+        },
+        {
+          "label": "Cybersecurity — ISO 27001",
+          "percent": 75,
+          "value": "Practitioner"
+        },
+        {
+          "label": "AI & Machine Learning Integration",
+          "percent": 70,
+          "value": "Intermediate"
+        }
+      ]
     },
     {
-    "id": 2,
-    "nama": "Web Developer",
-    "isi": "Pengembangan perangkat modern dengan standar industri terkini.",
-    "icon": "code/32x32/var(--pColor)",
-    "url": "#developer"
+      "section": "table",
+      "caption": "Afiliasi & Pengalaman",
+      "content": [
+        {
+          "Institusi": "Universitas IPWIJA",
+          "Peran": "Dosen Tetap (Informatika)",
+          "Periode": "2022 - Sekarang"
+        },
+        {
+          "Institusi": "PT Sismadi Langit Solusi",
+          "Peran": "Business Owner \nWeb Developer",
+          "Periode": "Aktif"
+        },
+        {
+          "Institusi": "PT Bintang Shafwan",
+          "Peran": "Tenaga Ahli IT",
+          "Periode": "2012 - Sekarang"
+        },
+        {
+          "Institusi": "Kementerian PUPR & Perindustrian",
+          "Peran": "IT Consultant \nProject-based",
+          "Periode": "2011 - Sekarang "
+        },
+        {
+          "Institusi": "LPIA",
+          "Peran": "Instruktur Komputer",
+          "Periode": "2005 - 2011"
+        }
+      ]
     },
     {
-    "id": 3,
-    "nama": "Dosen Tetap",
-    "isi": "Dedikasi akademik dan kontribusi riset ilmiah di Universitas IPWIJA.",
-    "icon": "edu/32x32/var(--pColor)",
-    "url": "#dosen"
+      "section": "stats",
+      "caption": "Metrik Otoritas Intelektual",
+      "content": [
+        {
+          "id": 1,
+          "nama": "SINTA Score",
+          "isi": "274",
+          "icon": "edu/32/var(--pColor)",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6848496"
+        },
+        {
+          "id": 2,
+          "nama": "PhD Progress",
+          "isi": "AI Integrasi",
+          "icon": "info/32/var(--pColor)",
+          "url": "#"
+        },
+        {
+          "id": 3,
+          "nama": "HKI Terdaftar",
+          "isi": "6",
+          "icon": "check/32/var(--pColor)",
+          "url": "#"
+        },
+        {
+          "id": 4,
+          "nama": "Global Badge",
+          "isi": "29",
+          "icon": "credly/32/var(--pColor)",
+          "url": "https://credly.com/users/sismadi"
+        }
+      ]
     },
     {
-    "id": 4,
-    "nama": "Personal",
-    "isi": "Pemikiran filosofis mengenai kemanusiaan dan teknologi.",
-    "icon": "user/32x32/var(--pColor)",
-    "url": "#personal"
-    }
-    ]
-    },
-
-
-      {
-    "section": "header",
-    "caption": "tentang",
-    "content": {
-      "icon": "start/100/var(--pColor)/0.3/float",
-    "nama": "Wawan Sismadi",
-    "tagline": "Sentral Ekosistem Digital",
-    "deskripsi": "Selamat datang di gerbang utama ekosistem digital Wawan Sismadi, S.Kom., M.Kom.\nSebagai seorang Arsitek Solusi Digital sekaligus Dosen Tetap di Universitas IPWIJA, narasi di halaman ini menyatukan visi teknologi dengan dedikasi akademik.\n\nDi sini, Anda akan menemukan titik temu antara pengalaman mendalam sebagai Konsultan Individual di Kementerian PUPR dengan gairah dalam mendidik generasi mendatang. Halaman ini dirancang untuk memandu Anda mengeksplorasi empat pilar utama: solusi aplikasi bisnis (Public Sector), perangkat pengembangan modern (Web Developer), kontribusi riset ilmiah (Dosen), hingga pemikiran filosofis mengenai kemanusiaan dan teknologi (Personal).",
-    "cta": [
-    {
-    "text": "Eksplorasi Pilar",
-    "link": "#pilar",
-    "icon": "menu/24"
-    }
-    ]
-    }
-    },
-
-
-
-
-    {
-    "section": "btn",
-    "btn": [
-    {
-    "text": "Hubungi Melalui WhatsApp",
-    "url": "[https://wa.me/yourlink]()",
-    "icon": "whatsapp/24"
+      "section": "table",
+      "caption": "Pencapaian Strategis (Featured Projects)",
+      "content": [
+        {
+          "Kategori": "Academic Excellence",
+          "Pencapaian": "PhD Candidate: Integrasi AI dalam Pendidikan",
+          "Tahun": "2025/2026"
+        },
+        {
+          "Kategori": "Social Impact",
+          "Pencapaian": "Arsitek Utama Aplikasi Bank Sampah (Digital Waste Bank)",
+          "Tahun": "2024"
+        },
+        {
+          "Kategori": "Tech Community",
+          "Pencapaian": "Lead Maintainer DonatJS - MVC Indonesia",
+          "Tahun": "Aktif"
+        },
+        {
+          "Kategori": "Verified Skills",
+          "Pencapaian": "Koleksi Badge Credly: Cloud & Cybersecurity",
+          "Tahun": "2025"
+        }
+      ]
     },
     {
-    "text": "Lihat Portofolio",
-    "url": "/portfolio",
-    "icon": "search/24"
+      "section": "table",
+      "caption": "Open Source Repository",
+      "content": [
+        {
+          "Project": "DonatJS",
+          "Bahasa": "JavaScript",
+          "Status": "Active Development"
+        },
+        {
+          "Project": "KtuPAD",
+          "Bahasa": "JavaScript",
+          "Status": "Research Case"
+        }
+      ]
+    },
+    {
+      "section": "btn",
+      "btn": [
+        {
+          "text": "LinkedIn",
+          "link": "https://www.linkedin.com/in/sismadi",
+          "icon": "linkedin/24/navy"
+        },
+        {
+          "text": "GitHub",
+          "link": "https://github.com/sismadi",
+          "icon": "github/24/black"
+        },
+        {
+          "text": "SINTA",
+          "link": "https://sinta.kemdiktisaintek.go.id/authors/profile/6848496",
+          "icon": "edu/24/green"
+        },
+        {
+          "text": "Credly",
+          "link": "https://credly.com/users/sismadi",
+          "icon": "credly/24/orange"
+        }
+      ]
     }
-    ]
-    }
-    ]
-    }
+  ]
+}

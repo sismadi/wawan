@@ -1,59 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="id" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta charset="utf-8">
-<meta name="Description" content="DonatJS by Wawan Sismadi">
+<meta name="description" content="Piawai — Empat aplikasi untuk institusi pendidikan dan UMKM Indonesia: LMS, Presensi, Transaksi, Keuangan.">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-
-<meta http-equiv="Cache-control" content="public" max-age="31536000">
 <meta http-equiv="Cache-Control" content="max-age=1209600">
 
-
-<!-- <link rel="manifest" href="https://donat.id/pwa/manifest.json"> -->
-
-<!-- Add to home screen for Safari on iOS -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="DonatJS UKM">
+<meta name="apple-mobile-web-app-title" content="Piawai">
 <meta name="mobile-web-app-capable" content="yes">
-
 <link rel="apple-touch-icon" href="https://donat.id/pwa/icons/icon-152x152.png">
 
-<!-- Windows related -->
 <meta name="msapplication-TileImage" content="pwa/icons/icon-144x144.png">
-<meta name="msapplication-TileColor" content="#386CC1">
+<meta name="msapplication-TileColor" content="#164391">
 <meta name="theme-color" content="#164391">
 
-<meta property="og:title" content="UKM"/>
-<meta property="og:image" content="https://donat.id/app/ukm/donat-ukm.png"/>
-
-<meta property="og:description" content="Usaha Kecil Menengah"/>
-<meta property="og:url" content="https://donat.id/app/ukm"/>
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="627" />
-<!-- TYPE BELOW IS PROBABLY: "website" or "article" or look on https://ogp.me/#types -->
+<meta property="og:title" content="Piawai — Aplikasi untuk Institusi dan UMKM Indonesia"/>
+<meta property="og:description" content="LMS, Presensi, Transaksi, dan Keuangan dalam satu ekosistem yang terhubung."/>
+<meta property="og:image" content="https://piawai.id/assets/og-piawai.png"/>
+<meta property="og:url" content="https://piawai.id"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="627"/>
 <meta property="og:type" content="website"/>
 
 <title>Wawan Sismadi</title>
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
-<link rel="icon" type="image/png" href="favicon.png">
 
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path id='pathws' d='M 9 8 L 11 6 L 9 4 L 10 3 L 12 5 L 14 3 L 15 4 L 13 6 L 15 8 L 18 5 L 19 6 L 16 9 L 18 11 L 20 9 L 21 10 L 19 12 L 21 14 L 20 15 L 18 13 L 16 15 L 19 18 L 18 19 L 15 16 L 13 18 L 15 20 L 14 21 L 12 19 L 10 21 L 9 20 L 11 18 L 9 16 L 6 19 L 5 18 L 8 15 L 6 13 L 4 15 L 3 14 L 5 12 L 3 10 L 4 9 L 6 11 L 8 9 L 5 6 L 6 5 Z M 12 7 L 10 9 L 12 11 L 14 9 Z M 15 10 L 13 12 L 15 14 L 17 12 Z Z M 9 10 L 7 12 L 9 14 L 11 12 Z Z M 12 13 L 10 15 L 12 17 L 14 15 Z' /></svg>" type="image/svg+xml">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M2 7 4 6 4 16 12 20 18 17 10 13 10 10 12 11 12 12 22 17 12 22 2 17 2 7M6 5 8 4 8 14 14 17 12 18 6 15 6 5M10 3 12 2 22 7 22 10 20 9 20 8 12 4 12 7 22 12 22 15 20 14 20 13 10 8 10 3'/></svg>" type="image/svg+xml">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Piawai",
+  "url": "https://wawan.sismadi.com",
+  "description": "Ekosistem empat aplikasi web untuk institusi pendidikan dan UMKM Indonesia: LMS, Presensi, Transaksi, Keuangan.",
+  "address": { "@type": "PostalAddress", "addressLocality": "Jakarta", "addressCountry": "ID" },
+  "contactPoint": { "@type": "ContactPoint", "telephone": "+62-878-8507-3237", "contactType": "customer service" }
+}
+</script>
+
+<link rel="stylesheet" type="text/css" href="https://donat.id/svg/svg.css">
+<!-- <link rel="stylesheet" type="text/css" href="https://donat.id/core/donat.css"> -->
+<link rel="stylesheet" type="text/css" href="/al/core/donat.css">
+<link rel="stylesheet" type="text/css" href="https://donat.id/kit/login.css">
+<link rel="stylesheet" type="text/css" href="https://donat.id/skin/skin.css">
+<!-- <link rel="stylesheet" type="text/css" href="https://donat.id/ui/ui.css"> -->
+<link rel="stylesheet" type="text/css" href="/al/ui/ui.css">
+
+<style>
+:root {
+     --pColor:#00afb9;
+     --pLightColor:#ade8f4;
+     --pDarkColor:#0077b6;
+     --border :#ECECF3;
+  --pTextColor:   #000000;
+  --pButtonColor: #ffffff;
+  --pPage:        #f2f2f2;
+  --gInput:       #ffffff;
+
+  /* SVG logo — akan di-override theme.js */
+  --svgLogo: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%23a3d5ff33' d='M2 7 4 6 4 16 12 20 18 17 10 13 10 10 12 11 12 12 22 17 12 22 2 17 2 7M6 5 8 4 8 14 14 17 12 18 6 15 6 5M10 3 12 2 22 7 22 10 20 9 20 8 12 4 12 7 22 12 22 15 20 14 20 13 10 8 10 3'/></svg>");
+}
 
 
-<link rel="stylesheet" type="text/css" href="https://donat.sismadi.com/svg/style.css" >
+.menu            { display: none; }
+.main            { width: 80%; margin: 50px auto; }
+ #footer-artikel  { display: none; }
 
-<link rel="stylesheet" type="text/css" href="https://donat.sismadi.com/donat/donat.css" >
-<link rel="stylesheet" type="text/css" href="https://donat.sismadi.com/donat/tabs.css" >
-<link rel="stylesheet" type="text/css" href="https://donat.sismadi.com/ui/login.css" >
 
-<link rel="stylesheet" type="text/css" href="https://donat.sismadi.com/templates/style.css">
-<link rel="stylesheet" type="text/css" href="https://donat.sismadi.com/templates/parallax.css">
+</style>
 
-<link id="layout-style" rel="stylesheet" type="text/css" href="https://donat.sismadi.com/templates/layouts/style-framework.css">
-<link id="color-style" rel="stylesheet" type="text/css" href="https://donat.sismadi.com/templates/colors/style-color-piawai.css">
-<link id="image-style" rel="stylesheet" type="text/css" href="https://donat.sismadi.com/templates/images/style-image-piawai.css">
-<link rel="stylesheet" type="text/css" href="style.css">
+
 
 
 </head>
@@ -61,108 +79,130 @@
 
 <div id="pattern-layer" class=""></div>
 <div id="modal" class="hide depan"></div>
-<div id="bawah"  class="toast hide" > info </div>
+<div id="bawah" class="toast hide">info</div>
 
-<div id="menu" class="menu" tabindex="0" >
-<div class="sidebar-header">
-<div class="logo hide">
-<img data-src="ws/100">
-</div>
-</div>
+<div id="menu" class="menu" tabindex="0">
+  <div class="sidebar-header">
+    <div class="logo">
+      <img data-src="ws/80">
+    </div>
+    <span>Wawan Sismadi</span>
+  </div>
 
+  <ul id="leftmenu">
+    <li data-info="web/page/home"> <img data-src="house"> Beranda  </li>
+    <li data-info="web/page/dashboard" class="item"> <img data-src="piawai"> Dashboard </li>
+    <li data-info="web/page/profile"> <img data-src="whatsapp"> Profile </li>
+  </ul>
 
-<ul id='leftmenu'>
-<li data-info="web/page/home"> <img data-src="house"> Home</li>
-<li data-info="web/page/dashboard" class="item" ><img data-src="menu"> Dashboard</li>
-<li data-info="web/page/profile"> <img data-src="user"> Profile</li>
-</ul>
-
-<div class="sidebar-footer">
-© 2026 Wawan Sismadi<br>
-Web Developer
-</div>
-
+  <div class="sidebar-footer">
+    © 2026 WS<br>
+    Wawan Sismadi
+  </div>
 </div>
 
 <div id="panel-container"></div>
 <div id="main" class="main shadow">
-<div id="header" class="header" ></div>
-<div id="topmenu" class="topmenu sticky-top"> topmenu </div>
+  <div id="header" class="header"></div>
+  <div id="topmenu" class="topmenu sticky-top">topmenu</div>
 
-<main><div id="content" class="content" ></div></main>
-<div id="footer" class="footer" >
+  <main>
 
-  <div id="footer-artikel" class="row">
+    <div id="content" class="content"></div>
+  </main>
 
-  <div class="col-1-3">
-  <div class="artikel">
-  <img data-src="sismadi/50">
-<br>
-  <strong>Piawai </strong><br>
-  +6287885073237 <br>
-  wawan@sismadi.com <br>
-  Jakarta <br>
-  Dikelola oleh:<br>
-  DonatJS <br>
-  <img data-src="geo/32">
-  <img data-src="linkedin/32/navy">
-  <img data-src="facebook/32/red-yellow">
-  <img data-src="x/32/blax">
-  <img data-src="github/32/black">
-  <img data-src="credly/32/orange">
+  <div id="footer" class="footer">
+    <div id="footer-artikel" class="row">
+
+      <div class="col-1-3">
+        <div class="artikel">
+          <img data-src="piawai/50">
+          <br>
+          <strong>Piawai</strong><br>
+          +62 878 8507 3237<br>
+          wawan@sismadi.com<br>
+          Jakarta, Indonesia<br>
+          <br>
+          <img data-src="geo/32">
+          <img data-src="linkedin/32/navy">
+          <img data-src="github/32/black">
+          <img data-src="whatsapp/32/green">
+        </div>
+      </div>
+
+      <div class="col-1-3">
+        <div class="artikel">
+          <h3>Navigasi</h3>
+          <ul>
+            <li><a onclick="navigate('web/page/home')">Beranda</a></li>
+            <li><a onclick="navigate('web/page/dashboard')">Tentang Piawai</a></li>
+            <li><a onclick="navigate('web/page/profile')">Hubungi Kami</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-1-3">
+        <div class="artikel">
+          <h3>Produk</h3>
+          <ul>
+            <li>LMS — Pembelajaran Online</li>
+            <li>Presensi — Absensi Digital</li>
+            <li>Transaksi — Kasir dan Stok</li>
+            <li>Keuangan — Pembukuan</li>
+          </ul>
+        </div>
+      </div>
 
     </div>
+    Made with <img data-src="donat/32x32" alt="donat"> by DonatJS
   </div>
-
-  <div class="col-1-3">
-    <div class="artikel">
-      <h3>Pranala</h3>
-      <ul>
-      <li>ORCID</li>
-      <li>Sinta</li>
-      <li>Linkedin</li>
-      <li>GitHub</li>
-      <li>Google Dev</li>
-      <li>Credly</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="col-1-3">
-    <div class="artikel">
-      <h3>Informasi</h3>
-      <ul>
-        <li>Starter Kit</li>
-        <li>Digital Asset</li>
-        <li>Web Templates</li>
-        <li>SystemInterprise</li>
-      </ul>
-    </div>
-  </div>
-
-  </div>
-  Made with <img data-src="donat/32x32" alt="Donat"> by donat.id
-</div>
 </div>
 
-<script type="text/javascript" src="config.js"></script>
+<script type="text/javascript" src="https://donat.id/skin/skin.js"></script>
+<script type="text/javascript" src="https://donat.id/core/donat.js"></script>
+<!-- <script type="text/javascript" src="https://donat.id/ui/ui.js"></script> -->
+<script type="text/javascript" src="/al/ui/ui.js"></script>
+<script type="text/javascript" src="https://donat.id/ui/ui-code-patch.js"></script>
+<script type="text/javascript" src="https://donat.id/svg/svg.js"></script>
+<script type="text/javascript" src="https://donat.id/kit/login.js"></script>
+<script type="text/javascript" src="https://donat.id/kit/web.js"></script>
 
-<script type="text/javascript" src="https://donat.sismadi.com/donat/donat.js"></script>
-<script type="text/javascript" src="https://donat.sismadi.com/donat/tabs.js"></script>
+<script type="text/javascript">
+config = {
+  api: 0,
+  db: 'web',
+  getdata: function(id) {
+    return config.api ? `http://localhost/api/?${id}` : `data/${id}.json`;
+  },
+  apps: [
+    { icon: "edu",    name: "LMS",        url: "lms/web/page/home"    },
+    { icon: "qrcode", name: "Presensi",   url: "presensi/page/home"   },
+    { icon: "cart",   name: "Transaksi",  url: "transaksi/page/home"  },
+    { icon: "wallet", name: "Keuangan",   url: "keuangan/page/home"   },
+  ],
+}
 
-<script type="text/javascript" src="https://donat.sismadi.com/templates/parallax.js"></script>
+const leftMenu = d.gebi('leftmenu');
+if (leftMenu) {
+  leftMenu.addEventListener('click', (event) => {
+    const li = event.target.closest('li');
+    if (li && leftMenu.contains(li)) {
+      navigate(li.getAttribute('data-info'));
+    }
+  });
+}
+</script>
 
-<script type="text/javascript" src="https://donat.sismadi.com/ui/script.js"></script>
+<script>
+  // Theme.set('ws', 'biru', 'catalog');
+</script>
 
-<script type="text/javascript" src="https://donat.sismadi.com/svg/script.js"></script>
+<script>
+  loadSVGLibraries(['https://donat.id/svg/svg.json']);
+</script>
 
 
-<script type="text/javascript" src="https://donat.sismadi.com/ui/login.js"></script>
-<script type="text/javascript" src="https://donat.sismadi.com/ui/app.js"></script>
 
-<script type="text/javascript" src="https://donat.sismadi.com/ui/web.js"></script>
 
-<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
-
